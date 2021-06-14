@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px
+}
+body{
+    background-color: rgba(0, 255, 255, 0.185)
+}
+header{
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(2, 85, 2, 0.973), rgb(63, 226, 63));
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom:5px;
+}
+.titulo{
+    padding-bottom: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+}
+.pcabecalho{
+    padding-bottom: 8px;
+    text-align: center;
+}
+.menu > a{
+    color: white;
+    text-decoration:none;
+    margin-left: 20px;
+    background-color:transparent;
+   
+}
+.menu > a:hover{
+    background-color: rgb(6, 202, 68);
+    padding: 5px;
+}
+.menu{
+    text-align: left;
+   
+}
+a:hover{
+    text-decoration: underline;
+}
+a{
+    background-color: rgba(10, 241, 10, 0.377);
+    color:rgb(1, 49, 1);
+    text-decoration: none;
+}
+main{
+    background-color: white;
+    width: 80%;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+h2{
+    color: rgb(0, 95, 0);
+}
+h3{
+    background-color: rgba(0, 128, 0, 0.568);
+    color: rgb(1, 49, 1);
+}
+span{
+    color: rgb(1, 49, 1);
+    font-weight: bolder;
+    font-size: 17px;
+}
+p{
+    text-indent: 30px;
+    text-align: justify;
+    padding: 10px 0px;
+}
+.bug{
+    margin: 0px auto;
+}
+.secundario{
+    background-color: rgb(87, 250, 196);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+
+}
+h3.mais{
+    color: white;
+    background-color: rgba(3, 70, 3, 0.815);
+    
+}
+li{
+    margin-left: 20px;
+    text-decoration: underline;
+    display: inline-block;
+    
+}
+footer{
+    background-color: black
+}
+.footer{
+    text-align: center;
+    color: white;
+}
+
+
